@@ -62,10 +62,10 @@ const TaskInput = (props) => {
           !isInputValid && styles.invalid
         }`}
       >
-        <label>Задачи</label>
+        <label>Tasks</label>
         <input type="text" onChange={taskInputChangeHandler} />
       </div>
-      <Button type="submit">Добавить Задачу</Button>
+      <Button type="submit">Add task</Button>
     </form>
   );
 };
